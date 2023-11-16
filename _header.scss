@@ -1,0 +1,15 @@
+@use "./variables" as *;
+
+.title {
+    display: flex;
+    font-family: $font-title;
+    font-size: 80px;
+    padding: 20px;
+
+    &__paragraph {
+        font-family: $font-paragraph;
+        padding: 80px 110px 60px 20px;
+        line-height: $standard-height;
+    }
+}
+

@@ -1,0 +1,9 @@
+@use "./variables" as *;
+
+.about {
+    padding-left: 20px;
+
+    &__title {
+        padding-bottom: 50px;
+    }
+}

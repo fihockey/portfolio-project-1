@@ -1,0 +1,15 @@
+@use "./variables" as *;
+
+@use "./nav.scss";
+
+@use "./header.scss";
+
+@use "./about.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
