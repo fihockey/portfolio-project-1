@@ -2,12 +2,25 @@
 
 .portfolio {
     padding-left: 20px;
-
+    
     &__heading {
-
+        font-family: $font-title;
+        font-size: $font-size-heading;
+        padding-bottom: 20px;
     }
 }
 
-.projects {
+.project {
     padding-left: 20px;
+
+    &__image {
+        display: grid;
+        width: 350px;
+    }
+
+    &__heading {
+        color: $primary-color;
+        font-family: $font-title;
+        font-size: $font-size-heading;
+    }
 }
