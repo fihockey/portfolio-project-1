@@ -30,7 +30,7 @@
 .about {
   padding-left: 20px;
 }
-.about__title {
+.about__heading {
   padding-bottom: 50px;
   font-size: 32px;
   font-family: 32px;
@@ -44,6 +44,13 @@
   line-height: 28px;
   padding-right: 20px;
   padding-bottom: 60px;
+}
+
+.portfolio {
+  padding-left: 20px;
+}
+.projects {
+  padding-left: 20px;
 }
 
 * {
