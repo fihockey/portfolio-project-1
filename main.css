@@ -17,12 +17,13 @@
 .title {
   display: flex;
   font-family: "Cormorant", sans-serif;
-  font-size: 80px;
+  font-size: 90px;
   padding: 20px;
 }
 .title__paragraph {
   font-family: "Inter", sans-serif;
-  padding: 80px 110px 60px 20px;
+  font-size: 16px;
+  padding: 80px 85px 60px 20px;
   line-height: 28px;
 }
 
@@ -32,7 +33,7 @@
 .about__title {
   padding-bottom: 50px;
   font-size: 32px;
-  font-family: "Cormorant", sans-serif;
+  font-family: 32px;
 }
 .about__headshot {
   display: flex;
@@ -42,6 +43,7 @@
   font-family: "Inter", sans-serif;
   line-height: 28px;
   padding-right: 20px;
+  padding-bottom: 60px;
 }
 
 * {

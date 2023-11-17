@@ -6,7 +6,7 @@
     &__title {
         padding-bottom: 50px;
         font-size: 32px;
-        font-family: $font-title;
+        font-family: $font-size-heading;
     }
 
     &__headshot {
@@ -17,10 +17,9 @@
 
     &__text {
         font-family: $font-paragraph;
-        line-height: $standard-height;
+        line-height: $line-height;
         padding-right: 20px;
-        padding-bottom:
-
+        padding-bottom: 60px;
     }
 }
 

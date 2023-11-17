@@ -3,13 +3,14 @@
 .title {
     display: flex;
     font-family: $font-title;
-    font-size: 80px;
+    font-size: 90px;
     padding: 20px;
 
     &__paragraph {
         font-family: $font-paragraph;
-        padding: 80px 110px 60px 20px;
-        line-height: $standard-height;
+        font-size: $font-size-paragraph;
+        padding: 80px 85px 60px 20px;
+        line-height: $line-height;
     }
 }
 
