@@ -5,5 +5,22 @@
 
     &__title {
         padding-bottom: 50px;
+        font-size: 32px;
+        font-family: $font-title;
+    }
+
+    &__headshot {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    &__text {
+        font-family: $font-paragraph;
+        line-height: $standard-height;
+        padding-right: 20px;
+        padding-bottom:
+
     }
 }
+
