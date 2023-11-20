@@ -60,6 +60,7 @@
 
 .project {
   padding-left: 20px;
+  padding-bottom: 80px;
 }
 .project__image {
   display: grid;
@@ -79,11 +80,12 @@
 }
 .contact__heading1 {
   font-family: "Cormorant", sans-serif;
-  font-size: 90px;
+  font-size: 80px;
 }
 .contact__heading2 {
   font-family: "Cormorant", sans-serif;
-  font-size: 90px;
+  font-size: 80px;
+  padding-bottom: 60px;
 }
 .contact__button {
   border: 2px, solid, black;
