@@ -1,0 +1,23 @@
+@use "./variables" as *;
+
+.contact {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__heading1 {
+        font-family: $font-title;
+        font-size: 90px;
+    }
+
+    &__heading2 {
+        font-family: $font-title;
+        font-size: 90px;
+    }
+
+    &__button {
+       border: 2px, solid, black;
+    }
+}

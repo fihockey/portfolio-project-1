@@ -71,6 +71,24 @@
   font-size: 38px;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact__heading1 {
+  font-family: "Cormorant", sans-serif;
+  font-size: 90px;
+}
+.contact__heading2 {
+  font-family: "Cormorant", sans-serif;
+  font-size: 90px;
+}
+.contact__button {
+  border: 2px, solid, black;
+}
+
 * {
   margin: 0;
   padding: 0;
