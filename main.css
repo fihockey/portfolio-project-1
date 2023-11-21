@@ -100,6 +100,27 @@
   text-decoration: none;
 }
 
+.footer {
+  height: 110px;
+  width: 100% vw;
+  background-color: black;
+}
+.footer__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+  width: 100% vw;
+}
+.footer__button {
+  height: 55px;
+  width: 55px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
