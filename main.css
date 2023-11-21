@@ -71,6 +71,17 @@
   font-family: "Cormorant", sans-serif;
   font-size: 38px;
 }
+.project__button-1, .project__button-2 {
+  height: 40px;
+  width: 40px;
+  margin: 8px;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 0;
+}
+.project__card-4, .project__card-5, .project__card-6 {
+  display: none;
+}
 
 .contact {
   display: flex;

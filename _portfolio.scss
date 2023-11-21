@@ -24,4 +24,18 @@
         font-family: $font-title;
         font-size: $font-size-heading;
     }
+
+    &__button-1, &__button-2 {
+        height: 40px;
+        width: 40px;
+        margin: 8px;
+        background-color: $primary-color;
+        border-radius: 50%;
+        box-shadow: 0;
+        
+    }
+
+    &__card-4, &__card-5, &__card-6 {
+        display: none;
+    }
 }
