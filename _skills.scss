@@ -21,6 +21,7 @@
             justify-content: space-between;
             padding-left: $padding-sides-desktop;
             padding-right: $padding-sides-desktop;
+    
         }
 
         &__heading {
@@ -32,12 +33,18 @@
         &__text {
             font-family: $font-paragraph;
             font-size: $font-size-paragraph;
+            padding-bottom: 40px;
+            width: 700px;
             
         }
 
         &__icons {
-            padding-left: $padding-sides-desktop;
-            padding-right: $padding-sides-desktop;
+            display: flex;
+            justify-content: center;
+            padding-left: 250px;
+            padding-bottom: 80px;
+            width: 800px;
+            // padding-right: $padding-sides-desktop;
         }
     }
 }

@@ -2,17 +2,15 @@
 
 .footer {
     height: 110px;
-    width: 100%vw;
     background-color: $primary-color;
-    margin: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 
-    &__buttons {
-       display: flex; 
-       justify-content: center;
-       align-items: center;
-       height: 110px;
-       width: 100%vw;
-    }
+    // &__buttons {
+    //    height: 110px;
+    //    width: 100%vw;
+    // }
 
     &__button {
         height: 55px;
@@ -20,7 +18,6 @@
         margin: 10px;
         background-color: $secondary-color;
         border-radius: 50%;
-        box-shadow: 0;
     }
     
 

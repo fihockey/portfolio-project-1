@@ -53,6 +53,30 @@
     .project {
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        
     }
+}
+
+@media screen and (min-width: 1024px) {
+
+        .project {
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 5px;
+
+            &__image {
+                width: 285px;
+            }
+
+            &__heading {
+                font-size: 30px;
+            }
+
+            &__card-4, &__card-5, &__card-6 {
+            display: unset;
+        }
+    }
+    
+    
 }

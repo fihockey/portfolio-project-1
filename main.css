@@ -156,7 +156,22 @@
   .project {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+  }
+  .project__image {
+    width: 285px;
+  }
+  .project__heading {
+    font-size: 30px;
+  }
+  .project__card-4, .project__card-5, .project__card-6 {
+    display: unset;
   }
 }
 .contact {
@@ -203,16 +218,10 @@
 }
 .footer {
   height: 110px;
-  width: 100% vw;
   background-color: black;
-  margin: 0;
-}
-.footer__buttons {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 110px;
-  width: 100% vw;
 }
 .footer__button {
   height: 55px;
@@ -220,7 +229,6 @@
   margin: 10px;
   background-color: white;
   border-radius: 50%;
-  box-shadow: 0;
 }
 
 .skills {
@@ -249,10 +257,15 @@
   .skills__text {
     font-family: "Inter", sans-serif;
     font-size: 18px;
+    padding-bottom: 40px;
+    width: 700px;
   }
   .skills__icons {
-    padding-left: 60px;
-    padding-right: 60px;
+    display: flex;
+    justify-content: center;
+    padding-left: 250px;
+    padding-bottom: 80px;
+    width: 800px;
   }
 }
 * {
