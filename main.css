@@ -49,6 +49,24 @@
   padding-bottom: 80px;
 }
 
+@media screen and (min-width: 768px) {
+  .about__heading {
+    padding-bottom: 0;
+  }
+  .about__headshot-text {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-bottom: 80px;
+  }
+  .about__headshot {
+    flex-direction: row-reverse;
+    margin-right: 40px;
+  }
+  .about__text {
+    width: 500px;
+  }
+}
 .portfolio {
   padding-left: 20px;
 }
