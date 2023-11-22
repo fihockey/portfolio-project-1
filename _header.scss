@@ -30,3 +30,18 @@
 
 }
 
+@media screen and (min-width: 1024px) {
+
+    .title {
+        justify-content: center;
+        font-size: 86px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .title {
+        justify-content: center;
+        font-size: 110px;
+    }
+}

@@ -49,4 +49,10 @@
         padding-left: $padding-sides-desktop;
         padding-right: $padding-sides-desktop;
     }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
 }
