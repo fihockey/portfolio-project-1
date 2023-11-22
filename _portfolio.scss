@@ -1,7 +1,8 @@
 @use "./variables" as *;
 
 .portfolio {
-    padding-left: 20px;
+    padding-left: $padding-sides-mobile;
+    padding-right: $padding-sides-mobile;
     
     &__heading {
         font-family: $font-title;
@@ -11,7 +12,9 @@
 }
 
 .project {
-    padding-left: 20px;
+    padding-left: $padding-sides-mobile;
+    padding-right: $padding-sides-mobile;
+    
     padding-bottom: 80px;
 
     &__image {
@@ -37,5 +40,13 @@
 
     &__card-4, &__card-5, &__card-6 {
         display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    .portfolio {
+        padding-left: $padding-sides-desktop;
+        padding-right: $padding-sides-desktop;
     }
 }
