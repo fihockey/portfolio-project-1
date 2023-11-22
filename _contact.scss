@@ -7,21 +7,25 @@
     justify-content: center;
     align-items: center;
 
-    &__heading1 {
+    &__heading-1 {
         font-family: $font-title;
         font-size: 80px;
     }
 
-    &__heading2 {
+    &__heading-2 {
         font-family: $font-title;
         font-size: 80px;
         padding-bottom: 60px;
     }
 
+    &__heading-desktop {
+        display: none;
+    }
+
     &__button {
        border: 10px, solid, black;
        padding: 20px 90px 20px 90px;
-       margin-bottom: 20px;
+       margin-bottom: 80px;
        background-color: $background-color;
        font-family: $font-paragraph;
        color: $primary-color;
@@ -32,4 +36,23 @@
         text-decoration: none;
        }
     }
+}
+
+@media screen and (min-width: 768px) {
+
+    .contact {
+
+        &__heading-1, &__heading-2 {
+            display: none;
+        }
+
+        &__heading-desktop {
+            display: unset;
+            font-family: $font-title;
+            font-size: 80px;
+            padding-bottom: 60px;
+        }
+    }
+
+    
 }
