@@ -1,9 +1,5 @@
 @use "./variables" as *;
 
-.nav__button {
-    display: none;
-}
-
 .name__button {
     display: flex;
     justify-content: center;
@@ -14,8 +10,28 @@
     padding-bottom: 100px;
     padding-top: 20px;
 }
-    
+
+    .nav__button {
+    display: none;
+}
 
 @media screen and (min-width: 768px) {
+    
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        padding-top: 40px;
+        
+    }
+    .name__button {
+        padding-top: 0;
+    }
+       
+    .nav__button {
+        display: flex;
+        font-family: $font-paragraph;
+        color: $primary-color;
 
+    }
 }
