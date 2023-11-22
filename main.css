@@ -223,6 +223,38 @@
   box-shadow: 0;
 }
 
+.skills {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .skills {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .skills {
+    display: unset;
+  }
+  .skills__heading-text {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .skills__heading {
+    font-family: "Cormorant", sans-serif;
+    font-size: 38px;
+  }
+  .skills__text {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+  }
+  .skills__icons {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
 * {
   margin: 0;
   padding: 0;

@@ -1,0 +1,43 @@
+@use "./variables" as *;
+
+.skills {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .skills {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .skills {
+        display: unset;
+        
+        &__heading-text {
+            display: flex;
+            justify-content: space-between;
+            padding-left: $padding-sides-desktop;
+            padding-right: $padding-sides-desktop;
+        }
+
+        &__heading {
+            font-family: $font-title;
+            font-size: $font-size-heading;
+        
+        }
+
+        &__text {
+            font-family: $font-paragraph;
+            font-size: $font-size-paragraph;
+            
+        }
+
+        &__icons {
+            padding-left: $padding-sides-desktop;
+            padding-right: $padding-sides-desktop;
+        }
+    }
+}
