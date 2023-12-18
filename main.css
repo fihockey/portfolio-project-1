@@ -90,6 +90,10 @@
   padding-bottom: 80px;
 }
 
+.about__headshot-image {
+  width: 380px;
+}
+
 @media screen and (min-width: 768px) {
   .about {
     padding-left: 60px;
@@ -101,15 +105,17 @@
   .about__headshot-text {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
     padding-bottom: 80px;
   }
   .about__headshot {
     flex-direction: row-reverse;
-    margin-right: 40px;
+    justify-content: space-between;
   }
   .about__text {
     width: 500px;
+  }
+  .about__headshot-image {
+    width: 250px;
   }
 }
 .portfolio {
